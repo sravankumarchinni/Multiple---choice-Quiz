@@ -2,8 +2,8 @@ from User import Examiner,Candidate
 
 e1=Examiner("sravan",2)
 print(e1)
-e1.addQuestion("Colors","easy")
-e1.addQuestion("Colors","easy")
+e1.addQuestion("General Knowledge","easy")
+e1.addQuestion("General Knowledge","easy")
 e1.addQuestion("Python","medium")
 e1.displayAllQuestions()
 
